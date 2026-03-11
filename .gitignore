@@ -1,11 +1,56 @@
-# Node / Frontend
-frontend/volunteer-frontend/node_modules/
-frontend/volunteer-frontend/.next/
-frontend/volunteer-frontend/.env.local
+# ========================
+# Node / Next.js (frontend)
+# ========================
 
-# Laravel / Backend
+# dependencies
+frontend/volunteer-frontend/node_modules/
+frontend/volunteer-frontend/.pnp/
+frontend/volunteer-frontend/.pnp.js
+
+# Next.js build output
+frontend/volunteer-frontend/.next/
+frontend/volunteer-frontend/out/
+
+# production
+frontend/volunteer-frontend/build/
+
+# misc
+frontend/volunteer-frontend.DS_Store
+frontend/volunteer-frontend.env.local
+frontend/volunteer-frontend.env.development.local
+frontend/volunteer-frontend.env.test.local
+frontend/volunteer-frontend.env.production.local
+frontend/volunteer-frontend/npm-debug.log*
+frontend/volunteer-frontend/yarn-debug.log*
+frontend/volunteer-frontend/yarn-error.log*
+
+# ========================
+# Laravel / PHP (backend)
+# ========================
+
+# Composer dependencies
 backend/volunteer-api/vendor/
-backend/volunteer-api/node_modules/
+backend/volunteer-api/.composer/
+
+# Laravel environment
 backend/volunteer-api/.env
-backend/volunteer-api/storage/
-backend/volunteer-api/bootstrap/cache/
+backend/volunteer-api/.env.backup
+
+# Laravel caches
+backend/volunteer-api/bootstrap/cache/*.php
+backend/volunteer-api/storage/*.key
+backend/volunteer-api/storage/app/public/*
+backend/volunteer-api/storage/framework/cache/data/*
+backend/volunteer-api/storage/logs/*.log
+backend/volunteer-api/storage/framework/sessions/*
+backend/volunteer-api/storage/framework/views/*
+
+# IDE files
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
