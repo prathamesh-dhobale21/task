@@ -1,0 +1,11 @@
+# Node / Frontend
+frontend/volunteer-frontend/node_modules/
+frontend/volunteer-frontend/.next/
+frontend/volunteer-frontend/.env.local
+
+# Laravel / Backend
+backend/volunteer-api/vendor/
+backend/volunteer-api/node_modules/
+backend/volunteer-api/.env
+backend/volunteer-api/storage/
+backend/volunteer-api/bootstrap/cache/
